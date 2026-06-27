@@ -1,0 +1,6 @@
+first_name = input().strip()
+last_name = input().strip()
+username = (first_name + last_name).lower()
+initials = first_name[0].upper() + last_name[0].upper()
+print(f"Username:  {username}")
+print(f"Initials:  {initials}")
